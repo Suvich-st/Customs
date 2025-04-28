@@ -32,7 +32,7 @@ function s.initial_effect(c)
 	--Set "The Weather Forecast"
 	local e3=Effect.CreateEffect(c)
 	e3:SetDescription(aux.Stringid(id,1))
-	e3:SetCategory(CATEGORY_POSITION+CATEGORY_SEARCH)
+	e3:SetCategory(CATEGORY_POSITION)
 	e3:SetType(EFFECT_TYPE_IGNITION)
 	e3:SetRange(LOCATION_MZONE)
 	e3:SetCode(EVENT_FREE_CHAIN)
